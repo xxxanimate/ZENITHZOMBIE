@@ -1,0 +1,158 @@
+baseURL = "/"
+title = "ｚｅｎｉｔｈ　ｚｏｍｂｉｅ　ｚｏｄｉａｃ"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+paginate = "7"
+theme = "spectral"
+
+[params]
+fancyTitle = "ｚｅｎｉｔｈ　ｚｏｍｂｉｅ　ｚｏｄｉａｃ" # title for frontpage, may include image
+copyright = "John Doe"
+description = 'zodiac ceo fucking with astral anomalies<br />yeah i just bought yo girl she just a commodity<br />swear this shit a comedy all you is a wannabee<br />im written in the prophecy fulfilling my destiny'
+startbuttonText = "Spotify"
+startbuttonLink = "https://open.spotify.com/artist/2L16pyxYhvfVU0qBu8Cbzn?si=depcHe71T-CtaRVnoOYgQw"
+body_is_markdown = true
+#custom_css = "foo.css"
+#images = ["path_to_social_image_for_link_previews.jpg"]
+
+[[params.menu.main]]
+url = '/'
+title = "Home"
+
+[[params.menu.main]]
+url = '/posts/'
+title = "Posts"
+
+[taxonomies]
+    tag = "tags"
+    category = "categories"
+    series = "series"
+
+[params.one]
+enable = true
+title = 'Buddha once said:'
+body = '''
+robitussy bottle i fill it up with tic tacs
+cooking so much dough gotta put it in a  big pan
+all the goosey money only fit inside big bags
+zodiac ceo only fucking with the big banks
+'''
+
+[[params.one.icon]]
+icon = "fa-twitter"
+style = "1"
+label = "Twitter"
+link ="https://twitter.com/Exanimaate"
+
+[[params.one.icon]]
+icon = "fa-github"
+style = "2"
+label = "Github"
+link ="https://github.com/xxxanimate"
+
+[[params.one.icon]]
+icon = "fa-instagram"
+style = "3"
+label = "Instagram"
+link ="https://twitter.com/Exanimaate"
+
+[params.two]
+enable = true
+
+[[params.two.section]]
+img = "img/1984.png"
+title = 'PRESIDENT GEORGE ORWELL<br />hes having a good time'
+body = 'President George Orwell is having a nice day with Hatsune Miku, flexing his bands and being an overall chill little fella.'
+
+[[params.two.section]]
+img = "img/1984reVAMP.png"
+title = 'UH OH THIS IS NOT GOOD<br />AWAKENING OF THE ZENITH ZOMBIE'
+body = 'The Abyssal Serpent Zodiac has taken Hatsune Miku as an Apostle to bring down Orwell. However back from the grave Orwell revives as the Zenith Zombie Zodiac.'
+
+[[params.two.section]]
+img = "img/zzzpic.png"
+title = 'ABYSSAL SERPENTS EVOLUTION:<br />ABYSSAL INFESTATION'
+body = 'You are what you eat.. and the serpent consumes rats, carriers of infestation and contagion. The Abyssal Serpent(Infestation) Zodiac returns to ravage the Zenith Zombie.'
+
+[[params.two.button]]
+startbuttonLink = "https://outlook.office365.com/mail/"
+startbuttonText = "Button"
+
+[params.three]
+enable = true
+title = 'Accumsan mus tortor nunc aliquet'
+body = '''
+Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend  
+fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.
+'''
+
+[[params.three.feature]]
+icon = "fa-paper-plane-o"
+title = "Arcu accumsan"
+body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
+
+[[params.three.feature]]
+icon = "fa-laptop"
+title = "Ac Augue Eget"
+body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
+
+[[params.three.feature]]
+icon = "fa-code"
+title = "Foo bar"
+body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
+
+[[params.three.feature]]
+icon = "fa-headphones"
+title = "Baz kram"
+body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
+
+[[params.three.feature]]
+icon = "fa-heart-o"
+title = "Some latin text"
+body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
+
+[[params.three.feature]]
+icon = "fa-flag-o"
+title = "Nothing important"
+body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
+
+[params.cta]
+enable = true
+title = "Arcue ut vel commodo"
+body = "Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet eleifend fringilla."
+
+[[params.cta.link]]
+href = "#"
+text = "Activate"
+special = true
+
+[[params.cta.link]]
+href = "#"
+text = "Learn More"
+special = false
+
+[params.contact]
+enable = true
+title = "Contact"
+body = "Leave us a message."
+phone = "+49 (0) 030 000 000"
+address = "1234 Somewhere Road<br />Some Place, Some State 0000<br />Some Country"
+email = "nospam@example.com"
+subject = "New Submission!"
+formspree_form_id = "example_invalid"
+
+[params.social]
+twitter = ""
+facebook = ""
+instagram = ""
+dribble = ""
+
+# language specific options
+
+[languages.en]
+weight = 0
+languageName = "English"
+
+[languages.de]
+weight = 10
+languageName = "Deutsch"
